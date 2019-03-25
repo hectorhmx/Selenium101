@@ -1,0 +1,14 @@
+# Ignoring environment files
+Pip*
+.vscode/
+
+# Ignoring Python cache
+*.pyc
+__pycache__/
+
+# Ignoring logs
+*.log
+
+# Ignoring screenshots
+*.jpg
+*.png
