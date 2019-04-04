@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-search = "Nombre del profesor"
+search = input("Nombre del profesor")
 search.casefold()
 mydriver = webdriver.Firefox()
 mydriver.get("https://www.misprofesores.com/")
