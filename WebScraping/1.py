@@ -28,7 +28,7 @@ try:
     botonInt.click()
     palabras = ["hola","Puedo escribir los versos mas tristes esta noche","Solo se que no se nada, pero al menos yo se eso"]
     for i in palabras:
-        areaTexto.clear()##limpear area de texto
+        areaTexto.clear()##limpiar area de texto
         areaTexto.send_keys(i)
         input("continuar")
     mydriver.get("https://www.youtube.com/watch?v=aJkXBuhVqYs")
