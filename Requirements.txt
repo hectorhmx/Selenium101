@@ -1,1 +1,23 @@
-selenium==3.141.0
+#####Requerimientos:
+	https://www.python.org/
+	https://www.mozilla.org/es-MX/firefox/new/
+
+####Instalar para windows
+	https://github.com/mozilla/geckodriver/releases/download/v0.25.0/geckodriver-v0.25.0-win64.zip	
+	####Añadir el ejecutable al path.
+	https://docs.alfresco.com/4.2/tasks/fot-addpath.html
+	python -m pip install selenium ###Importante que sea python3
+  
+####Para Linux
+	wget https://github.com/mozilla/geckodriver/releases/download/v0.25.0/geckodriver-v0.25.0-linux64.tar.gz
+	tar -xvzf geckodriver*
+	chmod 775 geckodriver
+	sudo mv geckodriver /usr/local/bin/
+	sudo python3 -m pip install selenium
+
+########Para Mac
+	https://github.com/mozilla/geckodriver/releases/download/v0.25.0/geckodriver-v0.25.0-macos.tar.gz
+	tar -xvzf geckodriver*
+	chmod 775 geckodriver
+	sudo mv geckodriver /usr/local/bin/
+	sudo python3 -m pip install selenium
